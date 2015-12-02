@@ -1,0 +1,19 @@
+{
+    "name": "cosmow/riak-client",
+    "type": "library",
+    "description": "Riak client",
+    "keywords": ["persistence", "riak"],
+    "license": "Apache 2.0",
+    "authors": [
+        {"name": "N.M."}
+    ],
+    "require": {
+        "php": ">=5.3.2"
+    },
+    "autoload": {
+        "psr-0": {
+            "Riak": "lib/"
+        }
+    }
+}
+
